@@ -78,8 +78,8 @@ function insert_data(){
             <th scope="row"></th>
             <td><select name="Options" style="width:350px;">
                 <option value="">--Select--</option>
-                <option name="OptionA" value="OptionA">Admin</option>
-                <option name="OptionB" value="OptionB">User</option>
+                <option name="OptionA" >Admin</option>
+                <option name="OptionB" >User</option>
             </td>
           </tr>
 
