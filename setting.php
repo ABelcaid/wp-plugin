@@ -46,6 +46,8 @@ function insert_data(){
     }
 }
 
+
+
 ?>
 
 <div class="wrap">
@@ -56,26 +58,26 @@ function insert_data(){
     <div class="postbox">
       <h3><strong>Enter your information and press save</strong></h3>
       <form method="post" action="">
-        <table class="form-table">
+        <table  class="form-table">
           <tr>
-            <th scope="row"></th>
+            <th style="padding: 2%;" scope="row">First name</th>
             <td><input type="text" name="username" value="" style="width:350px;" placeholder="First name " /></td>
           </tr>
           <tr>
-            <th scope="row"></th>
+            <th style="padding: 2%;" scope="row">Last name</th>
             <td><input type="text" name="fname" value="" style="width:350px;" placeholder="Last name " /></td>
           </tr>
           <tr>
-            <th scope="row"></th>
+            <th style="padding: 2%;" scope="row">Password</th>
             <td><input type="password" name="password" value="" style="width:350px;" placeholder="Password" /></td>
           </tr>
           <tr>
-            <th scope="row"></th>
+            <th style="padding: 2%;" scope="row">Description</th>
             <td><textarea name="descriptions" value="" style="width:350px;" placeholder="Description"></textarea></td>
           </tr>
 
           <tr>
-            <th scope="row"></th>
+            <th  style="padding: 2%;"scope="row">Options</th>
             <td><select name="Options" style="width:350px;">
                 <option value="">--Select--</option>
                 <option name="OptionA" >Admin</option>
